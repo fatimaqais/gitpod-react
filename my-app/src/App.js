@@ -1,14 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import FunctionalGreeting from "./components/FunctionalGreeting";
-import FunctionalGreetingWithProps from './components/StatefulGreeting';
+import "./App.css";
+import EventBinding from "./components/EventBinding";
 
 function App() {
-  return (
-    <div className="App">
-      <FunctionalGreetingWithProps greeting="nice to meet you!" name="mike" />
-    </div>
-  );
+  return <div className="App">
+      <EventBinding />
+  </div>;
 }
 
 export default App;
