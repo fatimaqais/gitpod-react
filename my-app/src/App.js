@@ -1,9 +1,9 @@
 import "./App.css";
-import ControlledForm from "./components/ControlledForm";
+import { SearchBar3 } from "./components/SearchBar3";
 
 function App() {
   return <div className="App">
-      <ControlledForm />
+      <SearchBar3 />
   </div>;
 }
 
