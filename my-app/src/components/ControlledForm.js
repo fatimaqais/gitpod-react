@@ -5,9 +5,9 @@ export class ControlledForm extends Component {
         super(props)
     
         this.state = {
-             name: '',
-             category: 'website',
-             comments: '',
+            name: '',
+            category: 'website',
+            comments: '',
         }
     }
     handleNameChange = (event) => {
